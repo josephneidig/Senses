@@ -47,6 +47,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void FindNextDest()
     {
+        NavMeshPath path = new NavMeshPath();
+
         float randZ = Random.Range(-destRange, destRange);
         float randX = Random.Range(-destRange, destRange);
 
@@ -56,8 +58,10 @@ public class NewBehaviourScript : MonoBehaviour
 
         destination = new Vector3(newX, newY, newZ);
 
-        if (Physics.Raycast(destination, -transform.up, 2f, isGround))
+        if (agent.CalculatePath(destination, path))
             destSet = true;
+        else
+            FindNextDest();
     }
 
     private void Follow()

@@ -110,6 +110,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -325,9 +326,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/J/Documents/GitHub/Senses/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/J/Documents/GitHub/Senses/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/J/Documents/GitHub/Senses/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/kylem/OneDrive/Desktop/IAGO_base/Senses/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/kylem/OneDrive/Desktop/IAGO_base/Senses/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/kylem/OneDrive/Desktop/IAGO_base/Senses/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
@@ -367,6 +368,10 @@
 "Assets/art assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/art assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleMenu.cs"
 "Assets/art assets/RunemarkStudio/DarkFantasyKit [Free]/Readme/Parts/Readme.cs"
+"Assets/scripts/NavMesh/Door.cs"
+"Assets/scripts/NavMesh/eDmitriyAssets/NavMeshLinkGenerator/Scripts/LinkGenerator/NavMeshLinks_AutoPlacer.cs"
+"Assets/scripts/NavMesh/eDmitriyAssets/NavMeshLinkGenerator/Scripts/LinkGenerator/NavMeshLink_TBS.cs"
+"Assets/scripts/NavMesh/PlayerNavLink.cs"
 "Assets/StarterAssets/AI Componenets/NewBehaviourScript.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
