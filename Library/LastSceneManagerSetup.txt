@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Inside Hotel.unity
+- path: Assets/art assets/Old Sea Port/scenes/Dock Thing.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
