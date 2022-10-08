@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/art assets/Old Sea Port/scenes/Dock Thing.unity
+- path: Assets/art assets/Low Poly Guns/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
