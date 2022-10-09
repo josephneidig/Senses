@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Inside Hotel/Inside Hotel.unity
+=======
+- path: Assets/art assets/Low Poly Guns/Scenes/Main.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
