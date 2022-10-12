@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> main
 sceneSetups:
 - path: Assets/Scenes/Inside Hotel/Inside Hotel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-<<<<<<< HEAD
-=======
-sceneSetups: []
->>>>>>> main
-=======
->>>>>>> main
