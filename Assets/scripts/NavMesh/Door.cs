@@ -6,6 +6,8 @@ using UnityEngine.AI;
 using UnityEditor;
 #endif
 namespace RPGSystem{
+
+
 public class Door : MonoBehaviour {
 
 	public NavMeshLink link;
@@ -40,10 +42,11 @@ public class Door : MonoBehaviour {
 			anim.SetBool("Open",_o);
 		}
 	}
+	
 	public float AttackTimer=1.25f;
 	float attackTime;
 	public AudioClip clip;
-	List<MovementController> cols=new List<MovementController>();
+	List<MovementController> cols =new List<MovementController>();
 	void OnTriggerEnter(Collider other)
 	{
 		MovementController c=other.GetComponent<MovementController>();
