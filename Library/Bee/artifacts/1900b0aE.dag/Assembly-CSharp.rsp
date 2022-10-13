@@ -373,6 +373,7 @@
 "Assets/art assets/RunemarkStudio/DarkFantasyKit [Free]/Readme/Parts/Readme.cs"
 "Assets/scripts/NavMesh/eDmitriyAssets/NavMeshLinkGenerator/Scripts/LinkGenerator/NavMeshLinks_AutoPlacer.cs"
 "Assets/scripts/NavMesh/eDmitriyAssets/NavMeshLinkGenerator/Scripts/LinkGenerator/NavMeshLink_TBS.cs"
+"Assets/scripts/PlayerCapsule.cs"
 "Assets/StarterAssets/AI Componenets/GameManager.cs"
 "Assets/StarterAssets/AI Componenets/NewBehaviourScript.cs"
 "Assets/StarterAssets/AI Componenets/PlayerBehavior.cs"
