@@ -52,7 +52,7 @@ public class PlayerBehavior : MonoBehaviour
             }
             else
             {
-                PlayerTakeDmg(10);
+                health.DamagePlayer(10);
                 dmgTimer = 0;
             }
         }

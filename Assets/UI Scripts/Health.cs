@@ -23,6 +23,7 @@ public class Health : MonoBehaviour
     public void DamagePlayer( int damage )
     {
         curHealth -= damage;
+        Debug.Log(curHealth);
 
         healthBar.SetHealth( curHealth );
     }
