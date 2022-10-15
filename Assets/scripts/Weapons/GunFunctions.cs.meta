@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bd3b318eb0b720b4199e1004493e53d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gunData: {instanceID: 0}
+  - muzzle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
