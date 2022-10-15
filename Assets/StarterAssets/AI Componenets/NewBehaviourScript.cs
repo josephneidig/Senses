@@ -17,13 +17,13 @@ public class NewBehaviourScript : MonoBehaviour
     bool inViewDist;
     bool canSee;
 
-    //public AISensor lineOfSight;
+    public AISensor lineOfSight;
 
     private void Awake()
     {
         player = GameObject.Find("PlayerCapsule").transform;
         agent = GetComponent<NavMeshAgent>();
-        //lineOfSight = GetComponent<AISensor>();
+        lineOfSight = GetComponent<AISensor>();
     }
 
     private void Update()
@@ -31,7 +31,7 @@ public class NewBehaviourScript : MonoBehaviour
         // I'm going insane. Calling LineOfSight.Objects causes the error 
         // "Object reference not set to an instance of an object"
         //Debug.Log(lineOfSight.Objects.Count);
-        canSee = true;
+        canSee = lineOfSight.Objects.Count > 0;
         //inViewDist = Physics.CheckSphere(transform.position, viewDist, isPlayer);
 
         if (!canSee) 
