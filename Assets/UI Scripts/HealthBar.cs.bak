@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class HealthBar : MonoBehaviour
 {
     public Slider healthBar;
     public Health playerHealth;
 	public GameObject DeathScreen;
+	public float scanTimer;
+	public bool die;
 
     private void Start()
     {
@@ -21,7 +24,30 @@ public class HealthBar : MonoBehaviour
 	public void Died ()
 	{
 		DeathScreen.SetActive(true);
+		die = true;
+		
 	}
+	
+	void Update()
+    {
+		if (die)
+		{
+			scanTimer -= Time.deltaTime;
+			if (scanTimer < 0)
+			{
+				
+				die = false;
+				scanTimer = 5;
+				SceneManager.LoadScene("Start");
+				playerHealth.curHealth = 100;
+				Hide();
+				setHealth(100);
+			}
+		}
+    }
+	
+	
+	
 	public void Hide()
 	{
 		DeathScreen.SetActive(false);
@@ -31,6 +57,6 @@ public class HealthBar : MonoBehaviour
     {
         healthBar.value = hp;
 		if(hp <= 0)
-			Died()
+			Died();
     }
 }

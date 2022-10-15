@@ -2371,6 +2371,8 @@ MonoBehaviour:
   healthBar: {fileID: 247698992}
   playerHealth: {fileID: 0}
   DeathScreen: {fileID: 1085961134}
+  scanTimer: 5
+  die: 0
 --- !u!4 &250922509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4548552100424898, guid: de50ba9783c0b0a4bb98350e23e5c35d, type: 3}
