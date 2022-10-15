@@ -75,5 +75,6 @@ public class NewBehaviourScript : MonoBehaviour
     private void Follow()
     {
         agent.SetDestination(player.position);
+        destSet = false;
     }
 }
