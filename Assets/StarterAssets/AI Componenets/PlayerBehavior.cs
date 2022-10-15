@@ -6,11 +6,12 @@ public class PlayerBehavior : MonoBehaviour
 {
     public float dmgTimer;
     public float dmgTrigger;
+    public Health health;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        health = GetComponent<Health>();
     }
 
     // Update is called once per frame
@@ -36,7 +37,8 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (collision.collider.gameObject.CompareTag("Enemy"))
         {
-            PlayerTakeDmg(10);
+            //PlayerTakeDmg(10);
+            health.DamagePlayer(10);
         }
     }
 

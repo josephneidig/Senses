@@ -15,18 +15,26 @@ public class NewBehaviourScript : MonoBehaviour
 
     public float viewDist;
     bool inViewDist;
+    bool canSee;
+
+    public AISensor lineOfSight;
 
     private void Awake()
     {
         player = GameObject.Find("PlayerCapsule").transform;
         agent = GetComponent<NavMeshAgent>();
+        lineOfSight = GetComponent<AISensor>();
     }
 
     private void Update()
     {
-        inViewDist = Physics.CheckSphere(transform.position, viewDist, isPlayer);
+        // I'm going insane. Calling LineOfSight.Objects causes the error 
+        // "Object reference not set to an instance of an object"
+        //Debug.Log(lineOfSight.Objects.Count);
+        canSee = lineOfSight.Objects.Count > 0;
+        //inViewDist = Physics.CheckSphere(transform.position, viewDist, isPlayer);
 
-        if (!inViewDist) 
+        if (!canSee) 
             Patrol();
         else 
             Follow();

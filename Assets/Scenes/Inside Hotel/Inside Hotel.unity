@@ -109,7 +109,7 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 1
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 1
     ledgeDropHeight: 3
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -272,7 +272,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18277955}
   m_LocalRotation: {x: -0, y: 0.98919725, z: -0, w: -0.14659066}
-  m_LocalPosition: {x: 1.74, y: -3.97033, z: -39.46}
+  m_LocalPosition: {x: 1.7489007, y: -3.6481755, z: -39.462997}
   m_LocalScale: {x: 1.4911783, y: 1.5126274, z: 1.5126274}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -481,9 +481,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -632,9 +660,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chest_02_closed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_LocalScale.x
@@ -1143,6 +1175,10 @@ PrefabInstance:
     - target: {fileID: 1618768248407598, guid: 278e8eacf74c6154ebc173a666e00c27, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618768248407598, guid: 278e8eacf74c6154ebc173a666e00c27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4432975863972712, guid: 278e8eacf74c6154ebc173a666e00c27, type: 3}
       propertyPath: m_RootOrder
@@ -2502,6 +2538,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -2887,9 +2951,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -3034,6 +3106,26 @@ PrefabInstance:
     - target: {fileID: 1013803126987112, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
       propertyPath: m_Name
       value: dfk_flag_02_a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013803126987112, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480451341453280, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535845118899270, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580199475086740, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818702257853946, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4189177640814570, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
       propertyPath: m_RootOrder
@@ -3247,9 +3339,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -3312,9 +3412,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_carpet_black_small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalScale.x
@@ -3334,7 +3442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.322485
+      value: -10.47
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3360,6 +3468,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.38899
       objectReference: {fileID: 0}
+    - target: {fileID: 65423499309913578, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
 --- !u!1001 &365212976
@@ -3369,9 +3481,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -3499,9 +3619,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -3598,15 +3746,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.74
+      value: 1.7489007
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.97033
+      value: -3.6481755
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.46
+      value: -39.462997
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3903,6 +4051,10 @@ PrefabInstance:
     - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_Name
       value: dfk_crystal_01_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
@@ -4345,11 +4497,11 @@ Transform:
   - {fileID: 1104983237}
   - {fileID: 246841446}
   - {fileID: 1614287473}
-  - {fileID: 1137321472}
   - {fileID: 1462424569}
   - {fileID: 1477478318}
   - {fileID: 1184865445}
   - {fileID: 1915490093}
+  - {fileID: 1137321472}
   - {fileID: 1099850893}
   - {fileID: 920109952}
   - {fileID: 1727536170}
@@ -4532,9 +4684,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_Name
       value: dfk_bed_single_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
@@ -4739,6 +4903,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destRange: 8
   viewDist: 8
+  lineOfSight: {fileID: 0}
 --- !u!136 &482185214
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4760,9 +4925,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_Name
       value: dfk_bed_single_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
@@ -4824,6 +5001,10 @@ PrefabInstance:
     - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_Name
       value: dfk_crystal_01_blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
@@ -5126,6 +5307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmgTimer: 0
   dmgTrigger: 1
+  health: {fileID: 0}
 --- !u!54 &532404229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5793,6 +5975,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -5850,9 +6040,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -6119,9 +6317,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1354142324503098, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429003261608402, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514491107221018, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683893252594766, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802545090086594, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803435338003192, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_Name
       value: dfk_wardrobe_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137913354369424, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_RootOrder
@@ -6472,6 +6698,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1566018262228020, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729276447639522, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860893651570426, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -6751,6 +6985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -6813,9 +7051,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1354142324503098, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429003261608402, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514491107221018, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683893252594766, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802545090086594, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803435338003192, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_Name
       value: dfk_wardrobe_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137913354369424, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_RootOrder
@@ -6879,6 +7145,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1013803126987112, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480451341453280, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535845118899270, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580199475086740, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818702257853946, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4189177640814570, guid: 70eb0852fd599cc4d8fa9ce8901a90ff, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -6932,9 +7218,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -7444,23 +7758,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2394
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.63976
+      value: 1.3686
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.74
+      value: 1.7489
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.6
+      value: -5.53
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.46
+      value: -39.463
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7502,6 +7816,10 @@ PrefabInstance:
     - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_Name
       value: dfk_carpet_black_small (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
@@ -7550,6 +7868,14 @@ PrefabInstance:
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -89.00101
+      objectReference: {fileID: 0}
+    - target: {fileID: 23074713714987766, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65423499309913578, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
@@ -7643,6 +7969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -7709,6 +8039,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_candle_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1488664653168218, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981709835873816, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4013185641152756, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -7773,6 +8111,14 @@ PrefabInstance:
     - target: {fileID: 1566018262228020, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_Name
       value: dfk_candle_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566018262228020, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729276447639522, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860893651570426, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_RootOrder
@@ -8075,6 +8421,10 @@ PrefabInstance:
     - target: {fileID: 1940977867849830, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
       propertyPath: m_Name
       value: dfk_shelf_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940977867849830, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4675272594081762, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
       propertyPath: m_RootOrder
@@ -9503,9 +9853,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_Name
       value: dfk_bed_single_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
@@ -9629,9 +9991,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -9773,6 +10143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chest_02_closed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -9845,9 +10219,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1354142324503098, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429003261608402, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514491107221018, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683893252594766, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802545090086594, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803435338003192, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4137913354369424, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4137913354369424, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_LocalScale.x
@@ -10449,6 +10851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -10726,6 +11132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_crystal_01_blue (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -10788,6 +11198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chest_02_closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10845,9 +11259,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -11661,9 +12083,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -11737,6 +12187,10 @@ PrefabInstance:
     - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_Name
       value: dfk_chair_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
@@ -11984,6 +12438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_carpet_black_small (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -12211,6 +12669,10 @@ PrefabInstance:
     - target: {fileID: 1940977867849830, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
       propertyPath: m_Name
       value: dfk_shelf_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940977867849830, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4675272594081762, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
       propertyPath: m_RootOrder
@@ -13598,9 +14060,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_Name
       value: dfk_bed_single_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
@@ -13775,6 +14249,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -14461,6 +14939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_carpet_black_small (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -14509,6 +14991,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -89.00101
       objectReference: {fileID: 0}
+    - target: {fileID: 65423499309913578, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
 --- !u!1001 &1402287193
@@ -14521,6 +15007,10 @@ PrefabInstance:
     - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_Name
       value: dfk_crystal_01_blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
@@ -14658,9 +15148,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -14840,6 +15358,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destRange: 0
   viewDist: 0
+  lineOfSight: {fileID: 0}
 --- !u!195 &1429344188
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14957,9 +15476,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -15030,6 +15577,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -16063,9 +16622,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -16427,6 +16994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_carpet_black_small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -16474,6 +17045,10 @@ PrefabInstance:
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.38899
+      objectReference: {fileID: 0}
+    - target: {fileID: 65423499309913578, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
@@ -17034,6 +17609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -17588,9 +18167,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1539760619255642, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_Name
       value: dfk_bed_single_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933050718119278, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936785005535126, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4, type: 3}
       propertyPath: m_RootOrder
@@ -17864,9 +18455,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_candle_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1566018262228020, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729276447639522, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860893651570426, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 4860893651570426, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_LocalScale.x
@@ -17921,6 +18520,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1488664653168218, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981709835873816, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4013185641152756, guid: a1bdf2efb6ec6f34caa7ff6d35ec626a, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -18110,9 +18717,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1226275691400070, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_Name
       value: dfk_desk_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460113053511152, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4265507469990348, guid: b9f4a9682ca0a4441a5cd19f4f2fa1bc, type: 3}
       propertyPath: m_RootOrder
@@ -18269,9 +18884,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -18499,9 +19142,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1354142324503098, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429003261608402, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514491107221018, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683893252594766, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802545090086594, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803435338003192, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_Name
       value: dfk_wardrobe_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962677989927716, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137913354369424, guid: 6a30c620bcca8ed448dd43ba86c3f699, type: 3}
       propertyPath: m_RootOrder
@@ -18699,6 +19370,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_candle_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1500055415243300, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680396080500948, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4560160398046466, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -18832,6 +19511,10 @@ PrefabInstance:
     - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_Name
       value: dfk_chest_02_closed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797334555253888, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4372640194763882, guid: 0c0aee4764d3c1e47bc704c0fbfa3a77, type: 3}
       propertyPath: m_RootOrder
@@ -19719,6 +20402,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_candle_04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1566018262228020, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729276447639522, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860893651570426, guid: 84cdff24186c12d4ca92d020d540b891, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -19794,6 +20485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -19860,9 +20555,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_candle_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1500055415243300, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680396080500948, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4560160398046466, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4560160398046466, guid: 2e5c62a4f52e6294794190ca289c576b, type: 3}
       propertyPath: m_LocalScale.x
@@ -19921,6 +20624,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1940977867849830, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4675272594081762, guid: 1ae0024b38f872845858e81222f5beac, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -20125,6 +20832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -20288,7 +20999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: e607f74860c67814e93c914b710142d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.303
+      value: -10.14
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: e607f74860c67814e93c914b710142d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20363,8 +21074,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   destination: {x: 0, y: 0, z: 0}
-  destRange: 8
-  viewDist: 8
+  destRange: 2
+  viewDist: 10
+  lineOfSight: {fileID: 0}
 --- !u!195 &1901729418
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -20375,7 +21087,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.01
-  m_Speed: 3
+  m_Speed: 4
   m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -20385,7 +21097,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 0.02
   m_BaseOffset: 0
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
 --- !u!136 &1901729419
 CapsuleCollider:
@@ -20401,6 +21113,30 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0.005, z: 0}
+--- !u!114 &1901729421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901729416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff12990bf59cc144aaaf7b6bc4549d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 10
+  angle: 40
+  height: 1
+  meshColor: {r: 1, g: 0, b: 0.18510342, a: 0.48235294}
+  scanFrequency: 30
+  layers:
+    serializedVersion: 2
+    m_Bits: 8
+  occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  Objects: []
 --- !u!1 &1903321646
 GameObject:
   m_ObjectHideFlags: 0
@@ -21221,6 +21957,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   destRange: 0
   viewDist: 0
+  lineOfSight: {fileID: 0}
 --- !u!195 &1945512357
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21933,6 +22670,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_carpet_black_small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276330849123174, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -21955,7 +22700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.322485
+      value: -10.47
       objectReference: {fileID: 0}
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21980,6 +22725,10 @@ PrefabInstance:
     - target: {fileID: 4097500270151942, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -89.00101
+      objectReference: {fileID: 0}
+    - target: {fileID: 65423499309913578, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0e048f29527f243b99783f25df9eb1, type: 3}
@@ -22185,9 +22934,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1070465709374564, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094411730428232, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126384457910506, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544046337933510, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736642213805944, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_Name
       value: dfk_candleholder_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926006508109636, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959626431383846, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681472241124192, guid: 9657eec125d1ed4408cd77a5ad62be9d, type: 3}
       propertyPath: m_RootOrder
@@ -22328,6 +23105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dfk_chair_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338609483781932, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4351705893840692, guid: 81fba7e031514c140a9ba21c9edce8e8, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -22385,6 +23166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 450116202}
     m_Modifications:
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -22598,6 +23383,10 @@ PrefabInstance:
     - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_Name
       value: dfk_crystal_01_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165959372330002, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4333737611318720, guid: b29ecf6c6d8bc074fb2fa0418d400134, type: 3}
       propertyPath: m_RootOrder
