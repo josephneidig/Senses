@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: af7d9ca58f72ac8478a917ae7e7e5804
+  - enabled: 1
+    path: Assets/Scenes/Inside Hotel/Inside Hotel.unity
+    guid: 4a15cc2196ff1454c912d1cad7041148
   m_configObjects: {}
