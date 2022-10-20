@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01f8945116178374d99fb5bbd00cecbb, type: 3}
+  m_Script: {fileID: 11500000, guid: e0bdbfca21051554faeb7ca8780cecb9, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
   name: Pistol
   damage: 50
-  maxDistance: 200
-  fireRate: 120
+  maxDistance: 500
   currentAmmo: 6
   magSize: 6
-  reloadTime: 1.75
+  fireRate: 60
+  reloadTime: 3
   reloading: 0
