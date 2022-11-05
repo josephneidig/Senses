@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
-    public Slider healthBar;
+    public RawImage healthBar;
     public Health playerHealth;
 	public GameObject DeathScreen;
 	public float scanTimer;
@@ -16,9 +16,9 @@ public class HealthBar : MonoBehaviour
     {
 		Hide();
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
-        healthBar = GetComponent<Slider>();
-        healthBar.maxValue = playerHealth.maxHealth;
-        healthBar.value = playerHealth.maxHealth;
+        healthBar = GetComponent<RawImage>();
+        //healthBar.maxValue = playerHealth.maxHealth;
+        //healthBar.value = playerHealth.maxHealth;
     }
 	
 	public void Died ()
@@ -55,7 +55,14 @@ public class HealthBar : MonoBehaviour
 
     public void SetHealth(int hp)
     {
-        healthBar.value = hp;
+		if(hp >= 0)
+		{
+			Debug.Log("hit");
+			Color color = healthBar.color;
+			color.a = ((100-hp)/100);
+			healthBar.color = color;
+			//= new Color(healthBar.color.r,healthBar.color.g,healthBar.color.b,color.a);
+		}
 		if(hp <= 0)
 			Died();
     }
