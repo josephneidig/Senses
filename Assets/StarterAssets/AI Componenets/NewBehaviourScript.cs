@@ -18,12 +18,18 @@ public class NewBehaviourScript : MonoBehaviour
     bool canSee;
 
     public AISensor lineOfSight;
+    public Animator enemy_Animator;
 
     private void Awake()
     {
         player = GameObject.Find("PlayerCapsule").transform;
         agent = GetComponent<NavMeshAgent>();
         lineOfSight = GetComponent<AISensor>();
+        enemy_Animator = GetComponent<Animator>();
+
+        enemy_Animator.SetBool("isMoving", true);
+        enemy_Animator.SetBool("collideWithPlayer", false);
+        enemy_Animator.SetBool("isDead", false);
     }
 
     private void Update()
@@ -77,4 +83,24 @@ public class NewBehaviourScript : MonoBehaviour
         agent.SetDestination(player.position);
         destSet = false;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Collision with player initiated.");
+            enemy_Animator.SetBool("collideWithPlayer", true);
+            enemy_Animator.SetBool("isMoving", false);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        enemy_Animator.SetBool("isMoving", true);
+        enemy_Animator.SetBool("collideWithPlayer", false);
+
+        //FindNextDest();
+    }
+
+    
 }
