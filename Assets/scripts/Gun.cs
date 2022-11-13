@@ -8,9 +8,9 @@ public class Gun : MonoBehaviour
     [Header("References")]
     [SerializeField] private GunData gunData;
     [SerializeField] private Transform muzzle;
-    [SerializeField] private AudioSource shotSFX;
-    [SerializeField] private AudioSource reloadSFX;
-    [SerializeField] private AudioSource clickSFX;
+    [SerializeField] private AudioClip shotSFX;
+    [SerializeField] private AudioClip reloadSFX;
+    [SerializeField] private AudioClip clickSFX;
 
     float timeSinceLastShot;
 
@@ -24,7 +24,8 @@ public class Gun : MonoBehaviour
     {
         if (!gunData.reloading)
         {
-            reloadSFX.Play();
+            AudioManager.audioManager.PlaySound(reloadSFX);
+            //reloadSFX.Play();
             StartCoroutine(Reload());
         }
     }
@@ -58,7 +59,8 @@ public class Gun : MonoBehaviour
         }
         else
         {
-            clickSFX.Play();
+            AudioManager.audioManager.PlaySound(clickSFX);
+            //clickSFX.Play();
         }
     }
 
@@ -71,6 +73,7 @@ public class Gun : MonoBehaviour
 
     private void OnGunshot()
     {
-        shotSFX.Play();
+        AudioManager.audioManager.PlaySound(shotSFX);
+        //shotSFX.Play();
     }
 }

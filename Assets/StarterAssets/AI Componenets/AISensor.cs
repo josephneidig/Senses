@@ -5,7 +5,18 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class AISensor : MonoBehaviour
 {
+    // Which Sensor Type is it?
+    public bool Seer;
+    public bool Hearer;
+    public bool Smeller;
 
+    // Extra Smelling Variables
+    public bool grow = false;
+    private float timer;
+    public float rangeGrowthRate = 1.001f;
+    public float distanceReset = 5;
+
+    // Base parameters
     public float distance = 10;
     public float angle = 30;
     public float height = 1.0f;
@@ -13,7 +24,16 @@ public class AISensor : MonoBehaviour
     public int scanFrequency = 30;
     public LayerMask layers;
     public LayerMask occlusionLayers;
-    public List<GameObject> Objects = new List<GameObject>();
+    public List<GameObject> Objects
+    {
+        get
+        {
+            objects.RemoveAll(obj => !obj);
+            return objects;
+        }
+    }
+    private List<GameObject> objects = new List<GameObject>();
+
 
     Collider[] colliders = new Collider[50];
     Mesh mesh;
@@ -21,10 +41,23 @@ public class AISensor : MonoBehaviour
     float scanInterval;
     float scanTimer;
 
+    // Temp values
+    //private AudioManager AM;
+
+
     // Start is called before the first frame update
     void Start()
     {
         scanInterval = 1.0f / scanFrequency;
+
+        if (Smeller)
+        {
+            distance = distanceReset;
+            grow = true;
+            timer = 0.0f;
+        }
+
+        //Debug.Log(AudioManager.audioManager.exists());
     }
 
     // Update is called once per frame
@@ -35,6 +68,16 @@ public class AISensor : MonoBehaviour
         {
             scanTimer += scanInterval;
             Scan();
+        }
+
+        if (Hearer)
+        {
+            if (AudioManager.audioManager.isPlaying())
+            {
+                Debug.Log("Heard.");
+                Objects.Clear();
+                Objects.Add(GameObject.Find("PlayerCapsule"));
+            }
         }
     }
 
@@ -50,7 +93,31 @@ public class AISensor : MonoBehaviour
             {
                 Objects.Add(obj);
             }
+            // For Hearer Only
+            if (Hearer && AudioManager.audioManager.isPlaying())
+            {
+                Debug.Log("Found Player.");
+                //Objects.Add(GameObject.Find("PlayerCapsule").GetComponenet<CapsuleCollider>());
+            }
         }
+
+        // For Smeller Only
+        if (Smeller)
+        {
+            timer += Time.deltaTime;
+            if (grow)
+                distance += rangeGrowthRate;
+        }
+    }
+
+    public bool CanHear()
+    {
+        if (AudioManager.audioManager.isPlaying())
+        {
+            Debug.Log("Heard.");
+            return true;
+        }
+        return false;
     }
 
     public bool IsInSight(GameObject obj)
@@ -121,7 +188,7 @@ public class AISensor : MonoBehaviour
 
         float currentAngle = -angle;
         float deltaAngle = (angle * 2) / segments;
-        for(int i = 0; i < segments; i++)
+        for (int i = 0; i < segments; i++)
         {
             bottomLeft = Quaternion.Euler(0, currentAngle, 0) * Vector3.forward * distance;
             bottomRight = Quaternion.Euler(0, currentAngle + deltaAngle, 0) * Vector3.forward * distance;
@@ -150,7 +217,7 @@ public class AISensor : MonoBehaviour
 
             currentAngle += deltaAngle;
         }
-        
+
 
         for (int i = 0; i < numVertices; i++)
         {
