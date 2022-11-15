@@ -647,6 +647,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95000010999109132, guid: 0f21afde7a41dfb4e930ca290ca46dee, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e202b51dc35e3904eb506fc5d6f378f2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f21afde7a41dfb4e930ca290ca46dee, type: 3}
 --- !u!4 &51401415 stripped
@@ -2487,7 +2491,7 @@ MonoBehaviour:
   distance: 2
   angle: 180
   height: 1
-  meshColor: {r: 1, g: 0, b: 0, a: 1}
+  meshColor: {r: 1, g: 0, b: 0, a: 0.5254902}
   scanFrequency: 30
   layers:
     serializedVersion: 2
@@ -15618,7 +15622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff12990bf59cc144aaaf7b6bc4549d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seer: 0
+  Seer: 1
   Hearer: 0
   Smeller: 0
   grow: 0
@@ -16701,6 +16705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95000012289870092, guid: d82532fc4fd80bf4097d29efd331a0ff, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5548b5795e2ba024c9650ab193815b2b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d82532fc4fd80bf4097d29efd331a0ff, type: 3}
 --- !u!1001 &1526346194
@@ -21524,7 +21532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff12990bf59cc144aaaf7b6bc4549d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seer: 0
+  Seer: 1
   Hearer: 0
   Smeller: 0
   grow: 0
@@ -22261,17 +22269,17 @@ MonoBehaviour:
   grow: 1
   rangeGrowthRate: 0.002
   distanceReset: 5
-  distance: 5.0099993
+  distance: 8.933715
   angle: 180
   height: 1
   meshColor: {r: 1, g: 0, b: 0, a: 0.5882353}
   scanFrequency: 30
   layers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   occlusionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!195 &1938037275
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22571,7 +22579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff12990bf59cc144aaaf7b6bc4549d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seer: 0
+  Seer: 1
   Hearer: 0
   Smeller: 0
   grow: 0
