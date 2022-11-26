@@ -23440,7 +23440,7 @@ MonoBehaviour:
   grow: 1
   rangeGrowthRate: 0.002
   distanceReset: 5
-  distance: 46.891487
+  distance: 5.3379755
   angle: 180
   height: 1
   meshColor: {r: 1, g: 0, b: 0, a: 0.5882353}
