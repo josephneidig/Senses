@@ -120,8 +120,28 @@ public class NewBehaviourScript : MonoBehaviour
 
         Vector3 distanceToDest = transform.position - destination;
 
+        if (debug)
+            Debug.Log("Velocity is " + agent.velocity.magnitude);
+
         if (distanceToDest.magnitude <= 1f)
             destSet = false;
+
+        if (agent.velocity.magnitude < 0.75)
+        {
+            stuckTimer -= Time.deltaTime;
+        }
+        else
+        {
+            stuckTimer = stuckCheck;
+        }
+
+        if (stuckTimer < 0)
+        {
+            stuckTimer = stuckCheck;
+            destSet = false;
+        }
+
+
 
     }
 
