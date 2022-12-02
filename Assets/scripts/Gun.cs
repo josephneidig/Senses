@@ -59,7 +59,11 @@ public class Gun : MonoBehaviour
         }
         else
         {
-            AudioManager.audioManager.PlaySound(clickSFX);
+            if (CanShoot())
+            {
+                AudioManager.audioManager.PlaySound(clickSFX);
+                timeSinceLastShot = 0;
+            }
             //clickSFX.Play();
         }
     }
