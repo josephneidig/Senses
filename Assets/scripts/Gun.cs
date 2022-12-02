@@ -12,12 +12,20 @@ public class Gun : MonoBehaviour
     [SerializeField] private AudioClip reloadSFX;
     [SerializeField] private AudioClip clickSFX;
 
+    LineRenderer tracerRenderer;
     float timeSinceLastShot;
 
     private void Start()
     {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
+
+        tracerRenderer = gameObject.AddComponent<LineRenderer>();
+        Vector3[] initTracerPositions = new Vector3[2] { Vector3.zero, Vector3.zero };
+        tracerRenderer.SetPositions(initTracerPositions);
+        tracerRenderer.startWidth = 0.1f;
+        tracerRenderer.endWidth = 0.1f;
+        tracerRenderer.enabled = true;
     }
 
     public void StartReload()
@@ -46,6 +54,8 @@ public class Gun : MonoBehaviour
         {
             if (CanShoot())
             {
+                DrawTracer(muzzle.position, transform.forward);
+
                 if (Physics.Raycast(muzzle.position, transform.forward, out RaycastHit hitInfo, gunData.maxDistance))
                 {
                     IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
@@ -72,7 +82,26 @@ public class Gun : MonoBehaviour
     {
         timeSinceLastShot += Time.deltaTime;
 
-        Debug.DrawRay(muzzle.position, muzzle.forward);
+        if (tracerRenderer.enabled && CanShoot())
+        {
+            tracerRenderer.enabled = false;
+        }
+    }
+
+    private void DrawTracer(Vector3 startPosition, Vector3 direction)
+    {
+        tracerRenderer.enabled = true;
+        Ray ray = new Ray(startPosition, direction);
+        RaycastHit raycastHit;
+        Vector3 endPosition = startPosition + (gunData.maxDistance * direction);
+
+        if (Physics.Raycast(ray, out raycastHit, gunData.maxDistance))
+        {
+            endPosition = raycastHit.point;
+        }
+
+        tracerRenderer.SetPosition(0, startPosition);
+        tracerRenderer.SetPosition(1, endPosition);
     }
 
     private void OnGunshot()
