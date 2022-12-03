@@ -18,12 +18,13 @@ public class doorscript : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.tag == "Player")
+        if(col.gameObject.tag == "Player" | col.gameObject.tag == "Enemy")
         {
 
             doorOpen = true;
             Doors("open");
         }
+        
     }
 
      void OnTriggerExit(Collider col)
