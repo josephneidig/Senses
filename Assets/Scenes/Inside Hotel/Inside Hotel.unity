@@ -985,6 +985,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1543968559}
+        m_TargetAssemblyTypeName: HotelWaveManager, Assembly-CSharp
+        m_MethodName: closeUpgradeMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &77865660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7717,18 +7729,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &532404235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117357027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82f4a2c288f4369459c8c7d04181f339, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &532404236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7746,20 +7746,6 @@ MonoBehaviour:
   curHealth: 0
   maxHealth: 100
   healthBar: {fileID: 1241193464}
---- !u!114 &532404242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117357027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0c1d21a57d430747a84ee05895cd1fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reloadKey: 0
-  upgradeScreen: {fileID: 0}
 --- !u!136 &532404249
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8037,6 +8023,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1543968559}
+        m_TargetAssemblyTypeName: HotelWaveManager, Assembly-CSharp
+        m_MethodName: closeUpgradeMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12734,6 +12732,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1543968559}
+        m_TargetAssemblyTypeName: HotelWaveManager, Assembly-CSharp
+        m_MethodName: closeUpgradeMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &953106734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15839,6 +15849,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1543968559}
+        m_TargetAssemblyTypeName: HotelWaveManager, Assembly-CSharp
+        m_MethodName: closeUpgradeMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1185808481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16386,7 +16408,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dd13f264ce8619c41849f025a5a5e8e8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 47ec575d6056a4342b9812590fcc1f50, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -22150,7 +22172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 7027dad57a5c594418fc2d3e44468f22, type: 3}
+  m_Texture: {fileID: 2800000, guid: d1bb8c66c7317e3488cfdc107f305d91, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -22363,6 +22385,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1543968559}
+        m_TargetAssemblyTypeName: HotelWaveManager, Assembly-CSharp
+        m_MethodName: closeUpgradeMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HotelWaveManager : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class HotelWaveManager : MonoBehaviour
 
         if (wave > 12)
         {
-            // Exit condition to move to next area will go here
+            SceneManager.LoadScene("Outside");
         }
 
         yield return new WaitForSeconds(20);
@@ -83,5 +84,11 @@ public class HotelWaveManager : MonoBehaviour
         GameObject newEnemy = Instantiate(enemy, spawnLocation, Quaternion.identity) as GameObject;
         // Set enemy parent to enemies holder (necessary so we can track later on if all enemies have been 
         newEnemy.transform.parent = enemiesHolder.transform;
+    }
+
+    public void closeUpgradeMenu()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 }

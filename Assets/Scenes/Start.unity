@@ -632,13 +632,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Controls:\r\nMovement - WASD\nLeft click - Shoot\r\nR - Reload\r\n\r\nIf
-    you left click and the gun clicks, that indicates the chamber is empty, and you
-    should reload!\r\n\r\nAbout the enemies:\r\nEnemies will not detect you automatically,
-    and you should use this to your advantage to fight enemies on your terms and
-    avoid getting swarmed.\r \nEnemies will patrol randomly and attempt to attack
-    you upon detection. \nThe detection for enemies currently available are:\r\n\r\nSlime:
-    Detects you by sight (with limited range)"
+  m_text: "Controls:\r\nMovement - WASD\nLeft click - Shoot\r\nR - Reload\r\n1, 2,
+    and 3 - Select Pistol, SMG, and Rifle, respectively\n\r\nIf you left click and
+    the gun clicks, that indicates the chamber is empty, and you should reload!\r\n\r\nEnemies
+    will not detect you automatically, and you should use this to your advantage
+    to fight enemies on your terms and avoid getting swarmed.\r \nEnemies will patrol
+    randomly and attempt to attack you upon detection. \nThe detection for enemies
+    currently available are:\r\n\r\nSlime: Detects you by sight (with limited range)\nBat:
+    Detects you by hearing (from anywhere)\nRabbit: Detects you by smell (based on
+    proximity to player)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -665,7 +667,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.55
+  m_fontSize: 22.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1809,7 +1811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 8e0bdc483f2afb7409073bd1a20b596c, type: 3}
+  m_Texture: {fileID: 2800000, guid: f359779e1cacf254b9a768b91ca72c2d, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2017,7 +2019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: b9bd104303df994458a3f97b300d645c, type: 3}
+  m_Texture: {fileID: 2800000, guid: 094095ad0ba09c44d8c18074b673155b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
