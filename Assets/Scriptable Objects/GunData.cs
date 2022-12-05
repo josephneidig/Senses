@@ -19,4 +19,20 @@ public class GunData : ScriptableObject
     public float reloadTime;
     [HideInInspector]
     public bool reloading;
+
+    public void upgradeAmmo(int amount)
+    {
+        magSize += amount;
+    }
+
+    public void upgradeDamage(float amount)
+    {
+        damage += amount;
+    }
+
+    public void upgradeReload(float amount)
+    {
+        reloadTime -= amount;
+        reloadTime = Mathf.Min(1f, reloadTime);
+    }
 }

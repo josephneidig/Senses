@@ -12,6 +12,8 @@ public class HotelWaveManager : MonoBehaviour
     private GameObject batPrefab;
     [SerializeField]
     private GameObject rabbitPrefab;
+    [SerializeField]
+    private GameObject upgradeScreen;
 
     private int wave;
     private bool waveHasStarted;
@@ -39,6 +41,10 @@ public class HotelWaveManager : MonoBehaviour
     {
         Debug.Log("Next wave condition reached");
         wave++;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        upgradeScreen.SetActive(true);
 
         if (wave > 12)
         {

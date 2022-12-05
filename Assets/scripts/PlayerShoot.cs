@@ -9,13 +9,17 @@ public class PlayerShoot : MonoBehaviour
     public static Action reloadInput;
 
     [SerializeField] private KeyCode reloadKey;
+    [SerializeField] private GameObject upgradeScreen;
 
     private void Update()
     {
-        if (Input.GetMouseButton(0))
-            shootInput?.Invoke();
+        if (upgradeScreen.activeSelf == false)
+        {
+            if (Input.GetMouseButton(0))
+                shootInput?.Invoke();
 
-        if (Input.GetKeyDown(reloadKey))
-            reloadInput?.Invoke();
+            if (Input.GetKeyDown(reloadKey))
+                reloadInput?.Invoke();
+        }
     }
 }
