@@ -28,15 +28,16 @@ public class HotelWaveManager : MonoBehaviour
 
     private void Update()
     {
-        if (enemiesHolder.transform.childCount == 0 && waveHasStarted)
+        if (enemiesHolder.transform.childCount <= 1 && waveHasStarted)
         {
             waveHasStarted = false;
-            nextWave();
+            StartCoroutine(nextWave());
         }
     }
 
     private IEnumerator nextWave()
     {
+        Debug.Log("Next wave condition reached");
         wave++;
 
         if (wave > 12)

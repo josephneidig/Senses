@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GunData gunData;
-    [SerializeField] private Transform muzzle;
+    [SerializeField] private Transform cam;
     [SerializeField] private AudioClip shotSFX;
     [SerializeField] private AudioClip reloadSFX;
     [SerializeField] private AudioClip clickSFX;
@@ -26,11 +26,20 @@ public class Gun : MonoBehaviour
         tracerRenderer.startWidth = 0.1f;
         tracerRenderer.endWidth = 0.1f;
         tracerRenderer.enabled = true;
+        Color white = Color.white;
+        tracerRenderer.SetColors(white, white);
+        Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
+        tracerRenderer.material = whiteDiffuseMat;
+    }
+
+    private void OnDisable()
+    {
+        gunData.reloading = false;
     }
 
     public void StartReload()
     {
-        if (!gunData.reloading)
+        if (!gunData.reloading && this.gameObject.activeSelf)
         {
             AudioManager.audioManager.PlaySound(reloadSFX);
             //reloadSFX.Play();
@@ -54,9 +63,9 @@ public class Gun : MonoBehaviour
         {
             if (CanShoot())
             {
-                DrawTracer(muzzle.position, transform.forward);
+                DrawTracer(cam.position, transform.forward);
 
-                if (Physics.Raycast(muzzle.position, transform.forward, out RaycastHit hitInfo, gunData.maxDistance))
+                if (Physics.Raycast(cam.position, transform.forward, out RaycastHit hitInfo, gunData.maxDistance))
                 {
                     IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
                     damageable?.Damage(gunData.damage);

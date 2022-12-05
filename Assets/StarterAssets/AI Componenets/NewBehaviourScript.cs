@@ -92,7 +92,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         agent.SetDestination(destination);*/
 
-/*        if (debug)
+/*        if (false)
         {
             Debug.Log(agent.velocity.magnitude);
         }
@@ -120,7 +120,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         Vector3 distanceToDest = transform.position - destination;
 
-        if (debug)
+        if (false)
             Debug.Log("Velocity is " + agent.velocity.magnitude);
 
         if (distanceToDest.magnitude <= 1f)
@@ -188,7 +188,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void FindNextDest()
     {
-        if (debug)
+        if (false)
             Debug.Log("Random choice");
         NavMeshPath path = new NavMeshPath();
 
@@ -212,14 +212,14 @@ public class NewBehaviourScript : MonoBehaviour
         NavMeshHit hit;
         NavMesh.FindClosestEdge(destination, out hit, NavMesh.AllAreas);
 
-        if (debug)
+        if (false)
             Debug.Log((hit.position - destination).magnitude);
 
         float distanceCheck = (hit.position - destination).magnitude;
 
         if (distanceCheck < 0.5f || distanceCheck > 10000f)
         {
-            if (debug)
+            if (false)
                 Debug.Log("too close to wall");
             destSet = false;
             FindNextDest();
@@ -234,7 +234,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void UpdatedFindNextDest()
     {
-        if (debug)
+        if (false)
             Debug.Log("Circle choice");
         NavMeshPath path = new NavMeshPath();
 
@@ -258,14 +258,14 @@ public class NewBehaviourScript : MonoBehaviour
         NavMeshHit hit;
         NavMesh.FindClosestEdge(destination, out hit, NavMesh.AllAreas);
 
-        if (debug)
+        if (false)
             Debug.Log((hit.position - destination).magnitude);
 
         float distanceCheck = (hit.position - destination).magnitude;
 
         if (distanceCheck < 0.5f || distanceCheck > 10000f)
         {
-            if (debug)
+            if (false)
                 Debug.Log("too close to wall, random point now.");
             destSet = false;
             FindNextDest();

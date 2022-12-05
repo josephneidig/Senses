@@ -74,7 +74,7 @@ public class AISensor : MonoBehaviour
         {
             if (AudioManager.audioManager.isPlaying())
             {
-                Debug.Log("Heard.");
+                //Debug.Log("Heard.");
                 Objects.Clear();
                 Objects.Add(GameObject.Find("PlayerCapsule"));
             }
